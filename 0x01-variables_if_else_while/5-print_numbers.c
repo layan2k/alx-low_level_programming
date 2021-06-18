@@ -8,9 +8,11 @@
  */
 int main(void)
 {
-	for (int index = 0; index < 10; index++)
+	int index = 0;
+	while (index < 10)
 	{
-		printf("%d", index);	
+		printf("%d", index);
+		index++;
 	}
 	putchar('\n');
 	return (0);

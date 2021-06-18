@@ -11,8 +11,9 @@ int main(void)
 	int index = 0;
 	while (index < 10)
 	{
-		printf("%d\n", index);
+		printf("%d", index);
 		index++;
 	}
+	putchar('\n');
 	return (0);
 }

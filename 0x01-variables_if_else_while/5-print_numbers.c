@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-    int index = 0;
-    while (index < 11)
-    {
-        printf("%d/", index);
-    }
-    return (0);
+	int index = 0;
+	while (index < 11)
+	{
+		printf("%d/", index);
+		index ++;
+	}
+	return (0);
 }

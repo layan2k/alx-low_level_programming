@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the alphabets.
+ * main - Prints the numbers 1-10.
  *
  * Return: Always 0 (Success)
  */

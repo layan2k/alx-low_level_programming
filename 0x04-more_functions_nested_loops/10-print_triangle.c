@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * prints a triangle.
+ * print_triangle - prints a triangle.
  * @size: numbers of lines.
  * Return: no return.
  */

@@ -5,7 +5,7 @@
  * @a: been the first integer.
  * @b: been the second integer.
  *
- * Return:no return)
+ * Return: no return.
  */
 void swap_int(int *a, int *b)
 {

@@ -2,7 +2,7 @@
 
 /**
  * void swap_int- swaps the values of two integers.
- * with @a and @b : been the input values.
+ * @a and @b : been the input values.
  *
  * Return:no return)
  */

@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <string.h>
 
 /**
  *int _strlen - returns the length of a string.
@@ -8,7 +7,7 @@
  */
 int _strlen(char *s){
 	int summer;
-	*s = summer;
+	*s = &summer;
    int length = strlen(summer);
    printf("%d\n", length);
 }

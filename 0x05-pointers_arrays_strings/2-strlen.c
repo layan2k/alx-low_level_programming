@@ -5,9 +5,12 @@
  *@s: been the string
  * Return: length of string.
  */
-int _strlen(char *s){
+int _strlen(char *s)
+ {
    int c = 0;
-   while (s[c] != '\0')
-	  c++;
+
+   while(*s[c] != '\0')
+      c++;
 
    return c;
+}

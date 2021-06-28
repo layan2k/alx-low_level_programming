@@ -6,8 +6,8 @@
  * Return: length of string.
  */
 int _strlen(char *s){
-	int summer;
-	*s = &summer;
-   int length = strlen(summer);
-   printf("%d\n", length);
-}
+   int c = 0;
+   while (s[c] != '\0')
+	  c++;
+
+   return c;

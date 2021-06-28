@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
+ * reset_to_98 resets the value to 89.
+ * @n as the pointer been changed
  *
  * Return: Always 0.
  */

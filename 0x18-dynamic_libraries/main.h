@@ -1,3 +1,5 @@
+#ifndef _MAIN_
+#define _MAIN_
 #ifndef _HOLBERTON_
 #define _HOLBERTON_
 

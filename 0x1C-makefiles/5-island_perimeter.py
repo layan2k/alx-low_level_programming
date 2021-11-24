@@ -4,20 +4,20 @@
 def island_perimeter(grid):
     """Function that returns the p"""
     p = 0
-    rows = len(grid)
+    rrows = len(grid)
 
     if grid != []:
-        columns = len(grid[0])
-        for k in range(rows):
-            for v in range(columns):
-                        if grid[k][v] == 1:
-                            if (k - 1) == -1 or grid[k - 1][v] == 0:
+        rcolumns = len(grid[0])
+        for i in range(rrows):
+            for j in range(rcolumns):
+                        if grid[i][j] == 1:
+                            if (i - 1) == -1 or grid[i - 1][j] == 0:
                                 p += 1
-                            if (k + 1) == rows or grid[k + 1][v] == 0:
+                            if (i + 1) == rrows or grid[i + 1][j] == 0:
                                 p += 1
-                            if (v - 1) == -1 or grid[k][v - 1] == 0:
+                            if (j - 1) == -1 or grid[i][j - 1] == 0:
                                 p += 1
-                            if (v + 1) == columns or grid[k][v + 1] == 0:
+                            if (j + 1) == rcolumns or grid[i][j + 1] == 0:
                                 p += 1
 
     return p
